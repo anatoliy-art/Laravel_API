@@ -36,5 +36,11 @@ class RouteServiceProvider extends ServiceProvider
             Route::middleware('web')
                 ->group(base_path('routes/web.php'));
         });
+
+        // Правило: id может состоять только из цифр
+        Route::pattern('id', '[0-9]+');
+        
+        // Правило: slug может содержать латиницу, цифры, дефисы и нижние подчеркивания
+        Route::pattern('slug', '[a-z0-9-_]+');
     }
 }
