@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Фев 10 2026 г., 18:44
+-- Время создания: Фев 16 2026 г., 09:02
 -- Версия сервера: 8.0.30
 -- Версия PHP: 8.1.9
 
@@ -54,7 +54,7 @@ INSERT INTO `cars` (`id`, `brand_id`, `user_id`, `title`, `slug`, `description`,
 (1, 1, 1, 'Mersedes Ken Prohaska', 'ken-prohaska', 'Dolor natus blanditiis officia minima id sint porro. Doloribus provident id iure vero repellat est. Reprehenderit et inventore magnam consequatur reiciendis velit.\n\nEa non laborum omnis illo recusandae non quo. Sed sint aut quidem ipsa facere aperiam officiis. Dolores non corporis porro sed.\n\nAssumenda dolorum aut maxime repellat quae perferendis. Eveniet incidunt eius iure animi eius quos porro. Et nobis assumenda rerum recusandae.', 2002, 50, 89575, NULL, NULL, 740843, '+1.986.974.9948', '1', '2011-12-06 05:11:33', '2026-02-06 02:29:58'),
 (2, 2, 4, 'BMW Anastacio Satterfield', 'anastacio-satterfield', 'Qui deserunt nemo quisquam quidem ea voluptate. Fugit nobis est aliquid dolor non asperiores.\n\nSunt perspiciatis omnis sit blanditiis illum. Velit aut quasi aut voluptatem cupiditate aliquid ipsum. Facere occaecati ex laboriosam sit ducimus iure laborum. Natus ad ullam sunt est accusantium. Hic accusamus iusto quia ipsam maiores dolorum quis velit.\n\nSit ducimus est culpa quibusdam ab expedita ut. Laboriosam placeat a dolorem earum adipisci voluptas excepturi totam. Enim officiis quia quo tempora temporibus molestiae accusamus. Aut vero velit ea sequi.', 2001, 117, 325026, NULL, NULL, 968660, '+1 (254) 403-4046', '1', '2021-11-19 18:01:16', '1997-12-05 18:17:17'),
 (3, 2, 5, 'BMW Rashad Hoppe', 'rashad-hoppe', 'Ea ab consequatur dicta nihil. Aut libero repellat non dolore voluptate nobis. Fugit amet culpa expedita aut enim reprehenderit voluptatum.\r\n\r\nIllo aut culpa autem aperiam hic quia est quia. Placeat itaque non ut aut. Facilis debitis commodi atque labore ut sequi iste.\r\n\r\nQuo labore numquam in exercitationem neque quaerat qui. Veritatis aliquam velit doloremque consequatur reprehenderit et sint. Quaerat perferendis est necessitatibus voluptatem laudantium sed. Et animi sint facere dolores totam qui hic voluptas.', 2024, 266, 38137, 'image/2026-02-10/vP7FzswFd0jfk3g3Ejx0PDcU6TZv4R6xklh0pOvt.jpg', '[\"image/2026-02-10/jtMgioPH4JZbBorDe7zt2K5eZUOWLfKjr0rotWrZ.jpg\", \"image/2026-02-10/hdOTVoIN5VKEwxDOWOZCUTCQIl0t4zImgpNUkWdT.jpg\"]', 482232, '283.705.7837', '1', '2012-04-04 03:20:36', '2026-02-10 00:15:24'),
-(4, 1, 5, 'Mersedes Mr. Alan Upton IV', 'mr-alan-upton-iv', 'Consequatur reiciendis qui possimus aliquam modi et qui. Animi culpa ad alias molestiae rerum. Dolor adipisci perferendis consequatur ea voluptate amet sunt. Consequatur laborum quis fuga cumque praesentium officiis exercitationem.\n\nEt quo et consequuntur voluptate. Totam earum voluptas officia molestiae consectetur. Eligendi autem omnis ex voluptas error minus.\n\nVoluptatum nemo id culpa officiis rem. Enim non ipsum id beatae est ad iste eaque. Et similique neque quia nulla eaque error.', 2011, 40, 657053, NULL, NULL, 848162, '(719) 641-9489', '1', '2012-08-01 21:32:43', '1980-03-14 22:49:06'),
+(4, 1, 5, 'Mersedes Mr. Alan Upton IV', 'mr-alan-upton-iv', 'Consequatur reiciendis qui possimus aliquam modi et qui. Animi culpa ad alias molestiae rerum. Dolor adipisci perferendis consequatur ea voluptate amet sunt. Consequatur laborum quis fuga cumque praesentium officiis exercitationem.\r\n\r\nEt quo et consequuntur voluptate. Totam earum voluptas officia molestiae consectetur. Eligendi autem omnis ex voluptas error minus.\r\n\r\nVoluptatum nemo id culpa officiis rem. Enim non ipsum id beatae est ad iste eaque. Et similique neque quia nulla eaque error.', 2011, 40, 657053, 'image/2026-02-15/ttMF6dFtqKhQcr285wnjb7mi2xQnyeLkrzHIgTO3.jpg', '[\"image/2026-02-15/be6sIILWf5iET9rLvDxaX7QrOaFMuuMytxlPSRhV.jpg\", \"image/2026-02-15/RxbLv9aj21BxdxBZfrRIOm0d7B3ry0C3GoGdldso.jpg\", \"image/2026-02-15/W3I424ch25vIJTCFNrRPRmRGqTMyVk4velT3g99j.jpg\"]', 848162, '(719) 641-9489', '1', '2012-08-01 21:32:43', '2026-02-15 02:41:45'),
 (5, 2, 1, 'BMW Dr. Chanel Beatty', 'dr-chanel-beatty', 'Accusantium itaque molestiae dolorem atque facilis sed. Autem aut consequuntur ut explicabo unde dolor deleniti. Laborum vitae itaque quo dignissimos id placeat et.\n\nVoluptatem pariatur quaerat sed quasi dolores dolor deleniti. Deserunt sint quisquam maxime velit.\n\nVitae quasi soluta earum omnis. Perferendis laudantium est molestias ut blanditiis porro architecto voluptas. Ut et reprehenderit dolores illo quia blanditiis rem. Et similique dolore nemo laborum.', 1998, 139, 711160, NULL, NULL, 803473, '(234) 797-2815', '1', '1978-11-28 08:05:13', '1989-11-08 20:21:08'),
 (6, 4, 5, 'Mazda Cristal Kub', 'cristal-kub', 'Nihil fuga ut sapiente et vero impedit similique enim. Incidunt aliquid saepe quia odit voluptatibus.\n\nMolestiae est nostrum voluptas et hic beatae non. Exercitationem omnis non enim ipsa sapiente. Totam expedita ut quo provident explicabo officia. Est dolorem voluptatem esse perferendis quos autem facere.\n\nHic et enim in rerum expedita voluptatum. Quibusdam error quam eligendi magni nostrum.', 2003, 140, 281351, NULL, NULL, 400241, '+1-364-202-4418', '1', '2013-03-14 07:54:58', '1973-10-20 06:01:43'),
 (7, 3, 4, 'Lada Kaylin Douglas', 'kaylin-douglas', 'Ipsam porro fugiat eos. Et exercitationem perspiciatis et alias nisi iste. Et cumque est sed aut at iure. Facere sunt earum ad labore exercitationem nisi harum.\n\nIncidunt omnis natus cupiditate iure sapiente illum sequi. Ab molestias ea ut quis reprehenderit ipsam maxime. Impedit sit ut rerum quaerat.\n\nTenetur dolores aut ut. Quo asperiores voluptas non et ullam ad. Et sint dolor corporis.', 2006, 80, 998904, NULL, NULL, 880161, '240.276.2668', '1', '1977-02-25 02:08:59', '1990-12-07 17:58:57'),
@@ -75,7 +75,8 @@ INSERT INTO `cars` (`id`, `brand_id`, `user_id`, `title`, `slug`, `description`,
 (24, 1, 4, 'dd', 'dd-1', 'dd', 2025, 200, 0, NULL, NULL, 100000, '+1230456', '1', '2026-02-06 03:46:29', '2026-02-06 03:46:29'),
 (25, 1, 4, 'xx', 'xx', 'xx', 2027, 200, 100000, NULL, NULL, 100000, '+1230456', '1', '2026-02-06 03:47:16', '2026-02-06 03:47:16'),
 (26, 1, 4, 'чч', 'cc', 'чч', 2020, 200, 100000, NULL, NULL, 100000, '+1230456', '1', '2026-02-06 03:51:44', '2026-02-06 03:51:44'),
-(27, 2, 5, 'BMW Rashad Hoppe', 'bmw-rashad-hoppe', 'Ea ab consequatur dicta nihil. Aut libero repellat non dolore voluptate nobis. Fugit amet culpa expedita aut enim reprehenderit voluptatum.\r\n\r\nIllo aut culpa autem aperiam hic quia est quia. Placeat itaque non ut aut. Facilis debitis commodi atque labore ut sequi iste.\r\n\r\nQuo labore numquam in exercitationem neque quaerat qui. Veritatis aliquam velit doloremque consequatur reprehenderit et sint. Quaerat perferendis est necessitatibus voluptatem laudantium sed. Et animi sint facere dolores totam qui hic voluptas.', 1996, 266, 38137, 'image/2026-02-10/1yVkohHsYRx5gLb22YjELUvR8n87wJJ3B5GaChnL.jpg', '[\"image/2026-02-10/DwGW1UFfecPElE6Au2W4995WajTy1M2Mcz6dEdZV.jpg\", \"image/2026-02-10/vTmRUjrxDOttZJZpbcD4LOxAxcWXjD75NaE8m7rZ.jpg\", \"image/2026-02-10/DNcmp0ZOFfM9bMUlQfZB5UZN6WyZ88ikb0JWbc7m.jpg\"]', 482232, '283.705.7837', '1', '2026-02-10 00:00:54', '2026-02-10 00:00:54');
+(27, 2, 5, 'BMW Rashad Hoppe', 'bmw-rashad-hoppe', 'Ea ab consequatur dicta nihil. Aut libero repellat non dolore voluptate nobis. Fugit amet culpa expedita aut enim reprehenderit voluptatum.\r\n\r\nIllo aut culpa autem aperiam hic quia est quia. Placeat itaque non ut aut. Facilis debitis commodi atque labore ut sequi iste.\r\n\r\nQuo labore numquam in exercitationem neque quaerat qui. Veritatis aliquam velit doloremque consequatur reprehenderit et sint. Quaerat perferendis est necessitatibus voluptatem laudantium sed. Et animi sint facere dolores totam qui hic voluptas.', 1996, 266, 38137, 'image/2026-02-10/1yVkohHsYRx5gLb22YjELUvR8n87wJJ3B5GaChnL.jpg', '[\"image/2026-02-10/DwGW1UFfecPElE6Au2W4995WajTy1M2Mcz6dEdZV.jpg\", \"image/2026-02-10/vTmRUjrxDOttZJZpbcD4LOxAxcWXjD75NaE8m7rZ.jpg\", \"image/2026-02-10/DNcmp0ZOFfM9bMUlQfZB5UZN6WyZ88ikb0JWbc7m.jpg\"]', 482232, '283.705.7837', '1', '2026-02-10 00:00:54', '2026-02-10 00:00:54'),
+(30, 3, 5, 'Lada Calina', 'lada-calina', 'Desc Lada Calina', 2004, 210, 120000, 'image/2026-02-15/6ehbeVyuhPjsp5AsxcAfUjHECPXfvDF8DVxsvXf6.jpg', '[\"image/2026-02-15/hQOfpSfIBB76G5UgQkwE5ILFI30VTN2dR0KiImLi.jpg\", \"image/2026-02-15/Cas2p1JX04VSIQzV26NZLTfWdBrBLJj2iAef14e2.jpg\"]', 1200000, '+01 1234567899', '1', '2026-02-15 02:47:07', '2026-02-15 02:47:07');
 
 -- --------------------------------------------------------
 
@@ -160,7 +161,7 @@ CREATE TABLE `estates` (
 --
 
 INSERT INTO `estates` (`id`, `floor_id`, `room_id`, `material_id`, `category_id`, `user_id`, `title`, `slug`, `description`, `photo`, `gallery`, `price`, `visible`, `phone`, `created_at`, `updated_at`) VALUES
-(1, 2, 7, 2, 2, 5, 'Квартира 1 Quis quas qui illo sed vel omnis.!!!', 'spzk', 'Et ut aut et aut sed sed aut. Consectetur corporis omnis error ut minima illum est. Consequatur accusamus quia dolor expedita doloribus commodi repellat in.\r\n\r\nEt quam quae sit. Laboriosam ad delectus architecto minima sed ut quo. Sit id voluptas officia. Perferendis unde voluptates in.\r\n\r\nVel praesentium ut eligendi non labore molestias. Velit non in laboriosam sequi consequatur omnis iusto. Rem commodi eveniet reprehenderit occaecati quas quia id.', 'image/2026-02-04/GgdgN70D2ndD0LfVo5t3925Hy6dJ2DFgFa6j6tmA.jpg', NULL, 2105000, '1', '+01 1234567899', '2022-09-18 04:20:34', '2026-02-04 21:27:21'),
+(1, 3, 7, 2, 2, 5, 'Квартира 1 Quis quas qui illo sed vel omnis.!!!', 'spzk', 'Et ut aut et aut sed sed aut. Consectetur corporis omnis error ut minima illum est. Consequatur accusamus quia dolor expedita doloribus commodi repellat in.\r\n\r\nEt quam quae sit. Laboriosam ad delectus architecto minima sed ut quo. Sit id voluptas officia. Perferendis unde voluptates in.\r\n\r\nVel praesentium ut eligendi non labore molestias. Velit non in laboriosam sequi consequatur omnis iusto. Rem commodi eveniet reprehenderit occaecati quas quia id.', 'image/2026-02-04/GgdgN70D2ndD0LfVo5t3925Hy6dJ2DFgFa6j6tmA.jpg', '[\"image/2026-02-15/DRF6V4FtKghJ33UVjdX95NaJ6Ipc6a8uHwAxl5aW.jpg\", \"image/2026-02-15/X2eTADs3335HN9CSB69Hx6wFR2uc4SaHsCtCFBfI.jpg\", \"image/2026-02-15/iIAAKs83b9gsw4PyLTdQBB7DGBjYF2rX1Oi45dYw.jpg\"]', 220000, '1', '+01 1234567899', '2022-09-18 04:20:34', '2026-02-15 02:40:47'),
 (2, 5, 4, 1, 2, 1, 'Квартира 1 Mollitia vero eos numquam unde eius necessitatibus odio.', 'ydtb', 'Et ut aut et aut sed sed aut. Consectetur corporis omnis error ut minima illum est. Consequatur accusamus quia dolor expedita doloribus commodi repellat in.\r\n\r\nEt quam quae sit. Laboriosam ad delectus architecto minima sed ut quo. Sit id voluptas officia. Perferendis unde voluptates in.\r\n\r\nVel praesentium ut eligendi non labore molestias. Velit non in laboriosam sequi consequatur omnis iusto. Rem commodi eveniet reprehenderit occaecati quas quia id.', '', NULL, 3100000, '1', '+01 1234567891', '2025-01-31 10:32:25', '2026-02-04 20:14:41'),
 (3, 2, 6, 1, 3, 1, 'Квартира 1 Ab distinctio quos modi rerum consequatur voluptate.', 'qwyg', 'Et ut aut et aut sed sed aut. Consectetur corporis omnis error ut minima illum est. Consequatur accusamus quia dolor expedita doloribus commodi repellat in.\r\n\r\nEt quam quae sit. Laboriosam ad delectus architecto minima sed ut quo. Sit id voluptas officia. Perferendis unde voluptates in.\r\n\r\nVel praesentium ut eligendi non labore molestias. Velit non in laboriosam sequi consequatur omnis iusto. Rem commodi eveniet reprehenderit occaecati quas quia id.', '', NULL, 1100000, '1', '+01 1234567892', '2013-10-05 09:52:53', '2012-09-15 20:57:13'),
 (8, 2, 2, 3, 1, 4, 'Квартира 1 Ut vel consectetur et facilis delectus.', 'zpcm', 'Et ut aut et aut sed sed aut. Consectetur corporis omnis error ut minima illum est. Consequatur accusamus quia dolor expedita doloribus commodi repellat in.\r\n\r\nEt quam quae sit. Laboriosam ad delectus architecto minima sed ut quo. Sit id voluptas officia. Perferendis unde voluptates in.\r\n\r\nVel praesentium ut eligendi non labore molestias. Velit non in laboriosam sequi consequatur omnis iusto. Rem commodi eveniet reprehenderit occaecati quas quia id.', 'image/2026-02-04/XOXqbFvJJDPr23XU1dZ2fQdxfdaifn4L67fMePKp.jpg', '[\"image/2026-02-04/E0Z2LnkAD56pGYtbE8V8AtJUysUi81XcNgA4N1B8.jpg\", \"image/2026-02-04/cn2xHpupbXXeCHhx9eEzng1dPpTzRaE9Kn4e5iY6.jpg\", \"image/2026-02-04/cMUvugnhnN7lt6RzSx9xYhGcKwdjKKT5nvdk7oLy.jpg\", \"image/2026-02-04/HpPSfmOjA2J6mzupe5CZt3epkor9cONF4JlvGbUb.jpg\"]', 4100000, '1', '+01 1234567893', '1976-01-13 16:39:54', '2026-02-04 04:03:29'),
@@ -279,7 +280,42 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 (14, '2026_01_28_052701_create_categories_table', 5),
 (15, '2026_01_28_053225_create_estates_table', 6),
 (18, '2026_02_05_004151_create_cars_table', 7),
-(19, '2026_02_06_023743_create_car_brands_table', 8);
+(19, '2026_02_06_023743_create_car_brands_table', 8),
+(20, '2026_02_10_172456_create_windows_table', 9),
+(22, '2026_02_12_044125_create_order_windows_table', 10);
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `order_windows`
+--
+
+CREATE TABLE `order_windows` (
+  `id` bigint UNSIGNED NOT NULL,
+  `window_id` int UNSIGNED NOT NULL,
+  `title` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `width` int NOT NULL,
+  `height` int NOT NULL,
+  `material` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `hutters` int NOT NULL,
+  `phone` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `address` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `price` float DEFAULT NULL,
+  `material_price` int DEFAULT NULL,
+  `time_price` int DEFAULT NULL,
+  `visible` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'receiver',
+  `status` enum('0','1') COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '0',
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Дамп данных таблицы `order_windows`
+--
+
+INSERT INTO `order_windows` (`id`, `window_id`, `title`, `width`, `height`, `material`, `hutters`, `phone`, `address`, `price`, `material_price`, `time_price`, `visible`, `status`, `created_at`, `updated_at`) VALUES
+(1, 1, 'Окно пластиковое 2 створка из дерева', 1500, 1200, 'Дерево', 5, '111-111', '222-222', 107000, 102000, 5000, 'deliver', '0', '2026-02-12 02:21:42', '2026-02-16 02:31:46'),
+(5, 2, 'Окно пластиковое 2 створка из дерева', 1200, 1100, 'Пластик', 0, '+01 1234567899', '1111', NULL, NULL, NULL, 'manager', '0', '2026-02-15 23:54:17', '2026-02-16 02:31:54');
 
 -- --------------------------------------------------------
 
@@ -375,7 +411,7 @@ CREATE TABLE `users` (
   `email_verified_at` timestamp NULL DEFAULT NULL,
   `password` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `remember_token` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `roles` int NOT NULL DEFAULT '0',
+  `roles` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'user',
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -385,9 +421,45 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `roles`, `created_at`, `updated_at`) VALUES
-(1, 'Bill', 'bill@mail.ru', NULL, '$2y$12$WMXZYXs7yZ6jKIP4BZ2QveAbmfbhBspSDXE.//rrHYRpb4UpMWEuu', 'Uvf9XKpfspQ2TOEdUw5q6W8ygw74wcMZrFEu67WHLofZvoQIb6aaOyE7HZ9J', 0, '2026-01-27 01:27:18', '2026-01-27 01:27:18'),
-(4, 'Admin', 'admin@mail.ru', NULL, '$2y$12$JpbNio2lE0XeiWWp3UiwreiqBthnP2eCtGiMtbYpC/EVosPG6gPJ2', NULL, 1, '2026-01-27 02:28:38', '2026-01-27 02:28:38'),
-(5, 'Stig', 'stig@mail.ru', NULL, '$2y$12$jK6Ab9ReoJX1S57q1TSR3Of0zyIyLBCzbUtkf1WFW96XF.Rajlkwi', NULL, 0, '2026-02-01 15:44:58', '2026-02-01 15:44:58');
+(1, 'Bill', 'bill@mail.ru', NULL, '$2y$12$WMXZYXs7yZ6jKIP4BZ2QveAbmfbhBspSDXE.//rrHYRpb4UpMWEuu', 'Uvf9XKpfspQ2TOEdUw5q6W8ygw74wcMZrFEu67WHLofZvoQIb6aaOyE7HZ9J', 'user', '2026-01-27 01:27:18', '2026-01-27 01:27:18'),
+(4, 'Admin', 'admin@mail.ru', NULL, '$2y$12$JpbNio2lE0XeiWWp3UiwreiqBthnP2eCtGiMtbYpC/EVosPG6gPJ2', NULL, 'admin', '2026-01-27 02:28:38', '2026-01-27 02:28:38'),
+(5, 'Stig', 'stig@mail.ru', NULL, '$2y$12$jK6Ab9ReoJX1S57q1TSR3Of0zyIyLBCzbUtkf1WFW96XF.Rajlkwi', NULL, 'user', '2026-02-01 15:44:58', '2026-02-01 15:44:58'),
+(6, 'Приемщик', 'manager@mail.ru', NULL, '$2y$12$LpokdEir//VPFXu.hBytdO3yaufZQn1VK9gvhDryH90hxny1yhS3i', NULL, 'manager', '2026-02-12 03:54:31', '2026-02-12 03:54:31'),
+(7, 'Калькуляторщик', 'calculator@mail.ru', NULL, '$2y$12$11B37.1b9dHcGQtvOEWlb.crLZtq8G5Vu6A9nT78IwprCF27S.2Tq', NULL, 'calculator', '2026-02-12 03:58:51', '2026-02-12 03:58:51'),
+(8, 'Deliver', 'deliver@mail.ru', NULL, '$2y$12$PDA4y2WBdWT/8zoeSx222OKJgLUUTKn/gbZq2rVGO8LMkcDA2BxaS', NULL, 'deliver', '2026-02-16 02:25:31', '2026-02-16 02:25:31');
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `windows`
+--
+
+CREATE TABLE `windows` (
+  `id` bigint UNSIGNED NOT NULL,
+  `title` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `slug` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `description` text COLLATE utf8mb4_unicode_ci,
+  `material` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `hutters` int NOT NULL DEFAULT '0',
+  `photo` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Дамп данных таблицы `windows`
+--
+
+INSERT INTO `windows` (`id`, `title`, `slug`, `description`, `material`, `hutters`, `photo`, `created_at`, `updated_at`) VALUES
+(1, 'Окно пластиковое 1 створка из дерева', 'okno-plastikovoe-1-stvorka-iz-dereva', 'Описание Окно пластиковое 1 створка из дерева', 'Пластик', 2, 'image/2026-02-12/OHJOiKmVZHdagTdMai1V4rTF94QAL4D83Hkp5vGc.png', '2026-02-10 15:25:26', '2026-02-12 00:39:04'),
+(2, 'Окно пластиковое 2 створка из дерева', 'okno-plastikovoe-2-stvorka-iz-dereva', 'Desc Окно пластиковое 2 створка из дерева', 'Дерево', 3, 'image/2026-02-10/cbxKVh4N9k1tEEIaMmjWfNea9XonmDD1I8iCrb1r.jpg', '2026-02-10 15:44:57', '2026-02-12 00:42:29'),
+(3, 'Окно пластиковое 3 створка из plastic', 'okno-plastikovoe-3-stvorka-iz-plastic', 'Desc Окно пластиковое 3 створка из plastic', 'Дерево', 0, 'image/2026-02-10/Y4VZoJ8DLRyQOWBWGNgM62fSkGQ98AnL3pkx9EdU.png', '2026-02-10 15:45:41', '2026-02-12 00:40:42'),
+(4, 'Окно пластиковое 4 створка из plastic', 'okno-plastikovoe-4-stvorka-iz-plastic', 'Desc Окно пластиковое 4 створка из plastic', 'Метал', 2, 'image/2026-02-10/7R6NHFhVRni1vm5SRe8Tjwpeouk4HLZSNGPGxwiQ.png', '2026-02-10 15:46:12', '2026-02-12 00:40:54'),
+(5, 'Окно пластиковое 0 створка из plastic', 'okno-plastikovoe-0-stvorka-iz-plastic', 'desc Окно пластиковое 3 створка из plastic', 'Метал', 4, 'image/2026-02-10/77M3Vwje4I5pkvfEwpy8JhuPVSlFuimOZa7ywVFF.png', '2026-02-10 15:46:39', '2026-02-12 00:41:07'),
+(6, 'Окно пластиковое 1 створка из plastic', 'okno-plastikovoe-1-stvorka-iz-plastic', 'desc Окно пластиковое 3 створка из plastic', 'Пластик', 5, 'image/2026-02-10/io69QRh4wmhs6FjGTmX8H2qjKAeB2iEJGlGh4sy7.png', '2026-02-10 15:47:37', '2026-02-12 00:42:44'),
+(7, 'Окно пластиковое 3 створка из plastic', 'okno-plastikovoe-3-stvorka-iz-plastic-1', 'Окно пластиковое 3 створка из plastic', 'tree', 3, 'image/2026-02-10/9QGPuw2dHbTswp0Xpmu4Y01ESql6Yho27MziP5eh.png', '2026-02-10 15:47:58', '2026-02-10 15:47:58'),
+(8, 'Окно пластиковое 1 створка из дерева', 'okno-plastikovoe-1-stvorka-iz-dereva-1', 'Описание Окно пластиковое 1 створка из дерева', 'Пластик', 0, 'image/2026-02-12/InOeVoLDLfzj2L6GMhewhjfbFmuk7IigHiAwva0f.png', '2026-02-12 00:29:24', '2026-02-12 00:39:45'),
+(10, 'Окно пластиковое 5 створка из дерева', 'okno-plastikovoe-5-stvorka-iz-dereva', 'desc Окно пластиковое 5 створка из дерева', 'Дерево', 5, 'image/2026-02-12/LKm0oGbC3KsidDQJSKLkBkb0OdSc09SbzFardzI8.png', '2026-02-12 00:45:17', '2026-02-12 00:45:17');
 
 --
 -- Индексы сохранённых таблиц
@@ -455,6 +527,12 @@ ALTER TABLE `migrations`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Индексы таблицы `order_windows`
+--
+ALTER TABLE `order_windows`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Индексы таблицы `password_reset_tokens`
 --
 ALTER TABLE `password_reset_tokens`
@@ -489,6 +567,13 @@ ALTER TABLE `users`
   ADD UNIQUE KEY `users_email_unique` (`email`);
 
 --
+-- Индексы таблицы `windows`
+--
+ALTER TABLE `windows`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `windows_slug_unique` (`slug`);
+
+--
 -- AUTO_INCREMENT для сохранённых таблиц
 --
 
@@ -496,7 +581,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT для таблицы `cars`
 --
 ALTER TABLE `cars`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 
 --
 -- AUTO_INCREMENT для таблицы `car_brands`
@@ -538,7 +623,13 @@ ALTER TABLE `materials`
 -- AUTO_INCREMENT для таблицы `migrations`
 --
 ALTER TABLE `migrations`
-  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+
+--
+-- AUTO_INCREMENT для таблицы `order_windows`
+--
+ALTER TABLE `order_windows`
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT для таблицы `personal_access_tokens`
@@ -562,7 +653,13 @@ ALTER TABLE `tasks`
 -- AUTO_INCREMENT для таблицы `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+
+--
+-- AUTO_INCREMENT для таблицы `windows`
+--
+ALTER TABLE `windows`
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- Ограничения внешнего ключа сохраненных таблиц
