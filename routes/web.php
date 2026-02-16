@@ -4,11 +4,15 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\SiteController;
 use App\Http\Controllers\SiteCarController;
+use App\Http\Controllers\SiteWindowController;
+use App\Http\Controllers\OrderWindowController;
 use App\Http\Controllers\Account\AccountController;
 use App\Http\Controllers\Account\EstateController;
 use App\Http\Controllers\Account\CarController;
 use App\Http\Controllers\Admin\AdminController;
+use App\Http\Controllers\Admin\WindowController;
 use App\Http\Controllers\Admin\CarBrandController;
+use App\Http\Controllers\Admin\OrderWindowController as AdminOrderWindowController;
 use App\Http\Controllers\Admin\EstateController as AdminEstateController;
 use App\Http\Controllers\Admin\CarController as AdminCarController;
 
@@ -35,6 +39,10 @@ Route::get('/material/{id}', [SiteController::class, 'material'])->name('materia
 Route::get('/room/{id}', [SiteController::class, 'room'])->name('room');
 Route::get('/user/{id}', [SiteController::class, 'user'])->name('user');
 Route::get('/estate/{slug}', [SiteController::class, 'estate'])->name('estate');
+
+Route::get('/window', [SiteWindowController::class, 'index'])->name('site.window.index');
+Route::get('/window/show/{slug}', [SiteWindowController::class, 'show'])->name('site.window.show');
+Route::post('/window/order-create/{window_id}', [OrderWindowController::class, 'orderCreate'])->name('orderCreate.window.index');
 
 Route::get('/cars', [SiteCarController::class, 'index'])->name('site.cars.index');
 Route::get('/cars/brand/{id}', [SiteCarController::class, 'brand'])->name('site.cars.brand');
@@ -65,7 +73,19 @@ Route::middleware('admin')->prefix('admin')->group(function () {
     Route::put('/cars/{id}', [AdminCarController::class, 'update'])->name('admin.cars.update');
     Route::delete('/cars/{id}', [AdminCarController::class, 'destroy'])->name('admin.cars.destroy');
 
+    Route::get('/order-window', [AdminOrderWindowController::class, 'index'])->name('order.window.index');
+    Route::get('/order-window/edit/{id}', [AdminOrderWindowController::class, 'edit'])->name('order.window.edit');
+    Route::get('/order-window/back/{id}/{role}', [AdminOrderWindowController::class, 'back'])->name('order.window.back');
+    Route::delete('/order-window/delete/{id}', [AdminOrderWindowController::class, 'delete'])->name('order.window.delete');
+    Route::get('/order-window/calculatop', [AdminOrderWindowController::class, 'calculatorList'])->name('calculatopList.window.index');
+    Route::get('/order-window/{id}/calculatop', [AdminOrderWindowController::class, 'calculator'])->name('calculatop.window.index');
+    Route::put('/order-window/{id}/calculatop', [AdminOrderWindowController::class, 'calculatorUpdate'])->name('calculatop.window.update');
+    Route::get('/order-window/deliver', [AdminOrderWindowController::class, 'deliverList'])->name('deliver.window.index');
+    Route::get('/order-window/{id}/deliver', [AdminOrderWindowController::class, 'deliver'])->name('order.window.deliver');
+    Route::put('/order-window/{id}/status', [AdminOrderWindowController::class, 'statusOrder'])->name('order.window.status');
+
     Route::resource('/carBrands', CarBrandController::class);
+    Route::resource('/windows', WindowController::class);
 });
 
 Route::middleware('auth')->prefix('account')->group(function () {

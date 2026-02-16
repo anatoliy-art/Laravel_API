@@ -28,7 +28,7 @@
   </div>
   <img src="{{ $carBrand->photo ? asset('storage/'. $carBrand->photo) : asset('assets/images/no-image.jpg') }}" alt="" width="100"><br><br>
 
-  <button type="submit" class="btn btn-success">Create brand</button>
+  <button type="submit" class="btn btn-success">Update brand</button>
 </form>
   
 

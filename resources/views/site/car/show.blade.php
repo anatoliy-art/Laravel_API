@@ -13,7 +13,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="img-box">
-            <img src="{{ $car->photo ? asset('assets/images/' . $car->photo) : asset('assets/images/no-image.jpg') }}" alt="">
+            <img src="{{ $car->photo ? asset('storage/' . $car->photo) : asset('assets/images/no-image.jpg') }}" alt="">
           </div>
         </div>
         <div class="col-md-6">

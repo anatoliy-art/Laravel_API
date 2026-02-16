@@ -30,7 +30,7 @@ class UserController extends Controller
             
             $request->session()->regenerate();
 
-            if(Auth::user()->roles === 1){
+            if(Auth::user()->roles == 'admin' || Auth::user()->roles == 'manager' || Auth::user()->roles == 'calculator' || Auth::user()->roles == 'deliver'){
 
                 return redirect()->route('admin.admin')->with('success', "Welcome, " . Auth::user()->name . " !");
 

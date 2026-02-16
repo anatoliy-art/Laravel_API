@@ -25,6 +25,7 @@
       <li class="nav-item active">
         <a class="nav-link" href="{{ route('admin.admin') }}">Home <span class="sr-only">(current)</span></a>
       </li>
+      @can('admin')
       <li class="nav-item">
         <a class="nav-link" href="{{ route('admin.estates.index') }}">Estates</a>
       </li>
@@ -43,8 +44,24 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled">Disabled</a>
+        <a class="nav-link" href="{{ route('windows.index') }}">Windows</a>
       </li>
+      @endcan
+      @can('manager')
+      <li class="nav-item">
+        <a class="nav-link" href="{{ route('order.window.index') }}">Order</a>
+      </li>
+      @endcan
+      @can('calculator')
+      <li class="nav-item">
+        <a class="nav-link" href="{{ route('calculatopList.window.index') }}">Calculator</a>
+      </li>
+      @endcan
+      @can('deliver')
+      <li class="nav-item">
+        <a class="nav-link" href="{{ route('deliver.window.index') }}">Deliver</a>
+      </li>
+      @endcan
     </ul>
     <a href="{{ route('logout') }}" class="pr-3">Log out</a>
     <form class="form-inline my-2 my-lg-0">

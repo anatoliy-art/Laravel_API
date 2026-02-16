@@ -220,6 +220,8 @@ return [
         'password'                 => 'пароль',
         'password_confirmation'    => 'подтверждение пароля',
         'phone'                    => 'номер телефона',
+        'width'                    => 'ширина',
+        'height'                   => 'высота',
         'photo'                    => 'фотография',
         'portfolio'                => 'портфолио',
         'postal_code'              => 'индекс',
