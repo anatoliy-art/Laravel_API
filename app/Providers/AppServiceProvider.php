@@ -41,6 +41,10 @@ class AppServiceProvider extends ServiceProvider
             $view->with('years', range(now()->year, now()->year - 20));           
         });
 
+        View::composer(['login'], function($view){
+            $view->with('users', User::whereNot('roles', 'user')->get());         
+        });
+
         Paginator::useBootstrap();
 
     }
